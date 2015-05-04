@@ -1,3 +1,3 @@
 ApiDocs::Engine.routes.draw do
-  match '/(:version)' => 'api_docs/docs#index'
+  get '/(:version)' => 'api_docs/docs#index'
 end
